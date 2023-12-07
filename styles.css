@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: rgb(39, 40, 56);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#value {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 2px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.decrease {
+    background-color: #FF5964;
+    color: white;
+}
+
+.reset {
+    background-color: #7D70BA;
+    color: white;
+}
+
+.increase {
+    background-color: #27AE60;
+    color: white;
+}
